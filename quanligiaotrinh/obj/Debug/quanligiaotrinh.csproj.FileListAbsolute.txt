@@ -1,0 +1,71 @@
+D:\bài tập  lớn cslt\quanligiaotrinh\bin\Debug\quanligiaotrinh.exe.config
+D:\bài tập  lớn cslt\quanligiaotrinh\bin\Debug\quanligiaotrinh.exe
+D:\bài tập  lớn cslt\quanligiaotrinh\bin\Debug\quanligiaotrinh.pdb
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.csprojAssemblyReference.cache
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmDMGiaoTrinh.resources
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmHoSoMuon.resources
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmTacGia.resources
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmThuThu.resources
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.Properties.Resources.resources
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.csproj.GenerateResource.cache
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.csproj.CoreCompileInputs.cache
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.exe
+D:\bài tập  lớn cslt\quanligiaotrinh\obj\Debug\quanligiaotrinh.pdb
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\bin\Debug\quanligiaotrinh.exe.config
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\bin\Debug\quanligiaotrinh.exe
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\bin\Debug\quanligiaotrinh.pdb
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.csprojAssemblyReference.cache
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmChuyenNganh.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmDMGiaoTrinh.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmHoSoMuon.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmHoSoTra.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmKhoa.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmLop.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmMain.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmPhieuMuon.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmPhat.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmQue.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmTacGia.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmTheMuon.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmThuThu.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmTrinhDo.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmViPham.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.Properties.Resources.resources
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.csproj.GenerateResource.cache
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.csproj.CoreCompileInputs.cache
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.exe
+C:\Users\Cheng co`ho'\Downloads\quanligiaotrinh\obj\Debug\quanligiaotrinh.pdb
+C:\Trang\quanligiaotrinh\bin\Debug\quanligiaotrinh.exe.config
+C:\Trang\quanligiaotrinh\bin\Debug\quanligiaotrinh.exe
+C:\Trang\quanligiaotrinh\bin\Debug\quanligiaotrinh.pdb
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmChuyenNganh.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmDMGiaoTrinh.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmHoSoMuon.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmHoSoTra.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmKhoa.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmLop.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmMain.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmPhieuMuon.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmPhat.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmQue.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmTacGia.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmTheMuon.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmThuThu.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmTrinhDo.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmViPham.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.Properties.Resources.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.csproj.GenerateResource.cache
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.csproj.CoreCompileInputs.cache
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.exe
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.pdb
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.FrmTK_GT.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.FrmTK_TT.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.csprojAssemblyReference.cache
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmBaoCaoHSM_TM.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmBCTop5.resources
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.frmBCHSM_GTCT.resources
+C:\Trang\quanligiaotrinh\obj\Debug\Interop.LCC11.dll
+C:\Trang\quanligiaotrinh\obj\Debug\Interop.MsoEuro.dll
+C:\Trang\quanligiaotrinh\obj\Debug\Interop.MsoScreenRecorderLib.dll
+C:\Trang\quanligiaotrinh\obj\Debug\Interop.TASKLAUNCHLib.dll
+C:\Trang\quanligiaotrinh\obj\Debug\quanligiaotrinh.csproj.ResolveComReference.cache

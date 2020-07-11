@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EFDA803-8803-4802-925B-CCF65C86DA40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>quanligiaotrinh</RootNamespace>
+    <AssemblyName>quanligiaotrinh</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO.cs" />
+    <Compile Include="frmBaoCaoHSM-TM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCaoHSM-TM.Designer.cs">
+      <DependentUpon>frmBaoCaoHSM-TM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCHSM-GTCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCHSM-GTCT.Designer.cs">
+      <DependentUpon>frmBCHSM-GTCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCTop5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCTop5.Designer.cs">
+      <DependentUpon>frmBCTop5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuyenNganh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuyenNganh.Designer.cs">
+      <DependentUpon>frmChuyenNganh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMGiaoTrinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMGiaoTrinh.Designer.cs">
+      <DependentUpon>frmDMGiaoTrinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoSoMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoSoMuon.Designer.cs">
+      <DependentUpon>frmHoSoMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoSoTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoSoTra.Designer.cs">
+      <DependentUpon>frmHoSoTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhoa.Designer.cs">
+      <DependentUpon>frmKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLop.Designer.cs">
+      <DependentUpon>frmLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuMuon.Designer.cs">
+      <DependentUpon>frmPhieuMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhat.Designer.cs">
+      <DependentUpon>frmPhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQue.Designer.cs">
+      <DependentUpon>frmQue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTacGia.Designer.cs">
+      <DependentUpon>frmTacGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTheMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTheMuon.Designer.cs">
+      <DependentUpon>frmTheMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThuThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThuThu.Designer.cs">
+      <DependentUpon>frmThuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTK_GT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTK_GT.Designer.cs">
+      <DependentUpon>FrmTK_GT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTK_TT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTK_TT.Designer.cs">
+      <DependentUpon>FrmTK_TT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrinhDo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrinhDo.Designer.cs">
+      <DependentUpon>frmTrinhDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViPham.Designer.cs">
+      <DependentUpon>frmViPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBaoCaoHSM-TM.resx">
+      <DependentUpon>frmBaoCaoHSM-TM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCHSM-GTCT.resx">
+      <DependentUpon>frmBCHSM-GTCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCTop5.resx">
+      <DependentUpon>frmBCTop5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuyenNganh.resx">
+      <DependentUpon>frmChuyenNganh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMGiaoTrinh.resx">
+      <DependentUpon>frmDMGiaoTrinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoSoMuon.resx">
+      <DependentUpon>frmHoSoMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoSoTra.resx">
+      <DependentUpon>frmHoSoTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhoa.resx">
+      <DependentUpon>frmKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLop.resx">
+      <DependentUpon>frmLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuMuon.resx">
+      <DependentUpon>frmPhieuMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhat.resx">
+      <DependentUpon>frmPhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQue.resx">
+      <DependentUpon>frmQue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTacGia.resx">
+      <DependentUpon>frmTacGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTheMuon.resx">
+      <DependentUpon>frmTheMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThuThu.resx">
+      <DependentUpon>frmThuThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTK_GT.resx">
+      <DependentUpon>FrmTK_GT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTK_TT.resx">
+      <DependentUpon>FrmTK_TT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrinhDo.resx">
+      <DependentUpon>frmTrinhDo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViPham.resx">
+      <DependentUpon>frmViPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="LCC11">
+      <Guid>{EDCD5812-6A06-43C3-AFAC-46EF5D14E22C}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MsoEuro">
+      <Guid>{76F6F3F5-9937-11D2-93BB-00105A994D2C}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MsoScreenRecorderLib">
+      <Guid>{73720002-33A0-11E4-9B9A-00155D152105}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="TASKLAUNCHLib">
+      <Guid>{8D763331-F59C-46F5-99FF-F74CDC84AD0E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
